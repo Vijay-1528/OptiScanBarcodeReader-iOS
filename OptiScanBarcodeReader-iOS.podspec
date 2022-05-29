@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   spec.platform     = :ios, "13.0"
 
-  spec.source       = { :git => "https://github.com/Vijay-1528/OptiScanBarcodeReader-iOS.git", :tag => spec.version.to_s, :branch => "master" }
+  spec.source       = { :git => "https://github.com/Vijay-1528/OptiScanBarcodeReader-iOS.git", :tag => spec.version.to_s}
   
   spec.source_files  = "OptiScanBarcodeReader-iOS/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
